@@ -1,0 +1,27 @@
+# Day 1 - AI/ML Theoretical Foundations
+
+## Core Concepts & Definitions
+
+### 1. Artificial Intelligence (AI)
+
+- **Definition:** A broad field of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence, such as reasoning, decision-making, and problem-solving.
+- **How it works:** It encompasses both rule-based systems (if/else logic) and data-driven learning systems.
+- **Real-World Example:** Game-playing AI like Stockfish (chess engine) or automated route planning in Google Maps.
+
+### 2. Machine Learning (ML)
+
+- **Definition:** A subset of AI that enables systems to learn and improve from experience without being explicitly programmed.
+- **How it works:** Instead of hardcoding rules, ML models rely on statistical techniques to find patterns in training data and make predictions on new data.
+- **Real-World Example:** Email Spam Filters (detecting spam based on word patterns and user flag history).
+
+### 3. Deep Learning (DL)
+
+- **Definition:** A specialized subfield of Machine Learning based on Artificial Neural Networks (ANNs) with multiple layers (hence "deep").
+- **How it works:** It automatically extracts features from large amounts of unstructured data (images, audio, text) without human feature engineering.
+- **Real-World Example:** Autonomous Vehicles (Tesla Autopilot analyzing real-time video streams to identify pedestrians and lanes).
+
+### 4. Generative AI (GenAI)
+
+- **Definition:** A branch of Deep Learning designed to generate original content—such as text, images, audio, or code—based on learned data patterns.
+- **How it works:** Powered by modern architectures like Transformers and Diffusion Models, it predicts and crafts the most probable next elements to create novel outputs.
+- **Real-World Example:** Large Language Models like ChatGPT for text synthesis or Midjourney for AI image generation.
