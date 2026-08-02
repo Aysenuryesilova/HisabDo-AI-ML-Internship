@@ -1,0 +1,31 @@
+==============================================================================
+HISABDO AI/ML INTERNSHIP BOOTCAMP - DAY 2 THEORY & CONCEPTUAL NOTES
+Topic: Python Data Structures & Introduction to Pandas
+==============================================================================
+
+1. PYTHON DICTIONARIES & LISTS FOR DATA HANDLING
+------------------------------------------------------------------------------
+* Dictionary: A built-in Python data structure that stores data in key-value 
+  pairs. In data analysis, keys usually represent column names, and values 
+  contain lists of data entries.
+* List: An ordered collection of items used to store sequence data like ages, 
+  names, or marks.
+
+2. INTRODUCTION TO PANDAS
+------------------------------------------------------------------------------
+* Pandas: High-performance open-source library used for data manipulation, 
+  analysis, and cleaning in Python.
+
+3. DATAFRAME VS SERIES IN PANDAS
+------------------------------------------------------------------------------
+* DataFrame: A 2-dimensional tabular data structure with labeled axes (rows and 
+  columns), similar to a database table or Excel spreadsheet.
+* Series: A 1-dimensional labeled array capable of holding any data type. 
+  Each column in a DataFrame is essentially a Series.
+
+4. KEY DATA OPERATIONS PERFORMED TODAY
+------------------------------------------------------------------------------
+* Data Filtering: Selecting specific subsets of data based on conditions 
+  (e.g., df[df['Marks'] > 70]).
+* Aggregation: Calculating statistical values such as average (.mean()), 
+  maximum (.max()), and minimum (.min()).
