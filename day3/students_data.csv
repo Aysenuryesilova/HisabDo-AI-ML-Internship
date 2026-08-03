@@ -1,0 +1,31 @@
+Student_Name,Age,Gender,Course,Attendance,Assignment_Score,Midterm_Score,Final_Score
+Alice,24,Female,AI/ML,85.0,90.0,80.0,85.0
+Bob,22,Male,Data Science,62.0,55.0,60.0,58.0
+Charlie,21,Male,AI/ML,90.0,95.0,88.0,92.0
+David,23,Male,Web Dev,45.0,50.0,40.0,42.0
+Emma,26,Female,AI/ML,70.0,,65.0,60.0
+Frank,22,Male,Data Science,95.0,90.0,92.0,96.0
+Grace,21,Female,Cyber Security,68.0,70.0,60.0,65.0
+Hannah,24,Female,AI/ML,74.0,80.0,75.0,78.0
+Ian,27,Male,Web Dev,88.0,85.0,80.0,84.0
+Jack,23,Male,Data Science,59.0,60.0,50.0,55.0
+Karen,22,Female,AI/ML,92.0,95.0,90.0,94.0
+Liam,25,Male,Web Dev,50.0,45.0,50.0,48.0
+Mia,20,Female,Cyber Security,82.0,88.0,,85.0
+Noah,23,Male,AI/ML,78.0,75.0,72.0,76.0
+Olivia,21,Female,Data Science,91.0,90.0,89.0,93.0
+Peter,24,Male,Cyber Security,40.0,35.0,45.0,38.0
+Quinn,22,Female,Web Dev,85.0,80.0,82.0,86.0
+Rachel,23,Female,AI/ML,96.0,98.0,94.0,97.0
+Sam,26,Male,Data Science,60.0,65.0,58.0,62.0
+Tina,21,Female,Web Dev,72.0,70.0,75.0,74.0
+Umar,25,Male,AI/ML,89.0,85.0,88.0,87.0
+Victor,22,Male,Cyber Security,55.0,50.0,52.0,54.0
+Wendy,23,Female,Data Science,79.0,82.0,80.0,81.0
+Xavier,24,Male,Web Dev,65.0,60.0,62.0,64.0
+Yara,21,Female,AI/ML,94.0,92.0,95.0,96.0
+Zack,25,Male,Cyber Security,48.0,40.0,45.0,42.0
+Arthur,22,Male,AI/ML,83.0,80.0,85.0,84.0
+Bella,23,Female,Data Science,87.0,85.0,88.0,89.0
+Chris,24,Male,Web Dev,76.0,70.0,72.0,75.0
+Diana,21,Female,Cyber Security,90.0,92.0,88.0,91.0
