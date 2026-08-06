@@ -40,6 +40,14 @@ HisabDo-AI-Internship/
 └── day5/                              # Day 5: Model Comparison & Pipeline Evaluation
     ├── day5_model_comparison.ipynb    # Benchmark notebook comparing Logistic Regression vs. Decision Tree
     └── README.md
+    │
+└── day6/                              # Day 6: Feature Engineering & Hyperparameter Tuning
+    ├── day6_hyperparameter_tuning.ipynb# GridSearchCV & model optimization pipeline
+    ├── students_data.csv              # Input student performance dataset
+    ├── chart_model_comparison.png     # Baseline vs. Tuned metric comparison chart
+    ├── chart_roc_curve.png            # ROC-AUC evaluation curves
+    └── README.md
+
 ```
 ````
 
@@ -77,18 +85,27 @@ HisabDo-AI-Internship/
 - **Benchmark Implementation:** Constructed a side-by-side benchmark pipeline comparing **Logistic Regression** against a **Decision Tree Classifier**.
 - **Performance Analysis:** Evaluated classification matrices using side-by-side color-coded heatmaps (Blues vs. Greens) and logged comparative metrics (Accuracy, Precision, Recall, F1-Score) to analyze bias-variance trade-offs across distinct decision boundaries.
 
+### Day 6: Feature Engineering & Hyperparameter Tuning (GridSearchCV)
+
+- Objective: Optimize model decision boundaries via advanced feature preprocessing and systematic hyperparameter tuning.
+- Feature Engineering & Selection: Handled missing values dynamically, engineered composite performance indices (Dynamic_Score), and applied One-Hot Encoding to categorical variables.
+- Feature Scaling: Applied StandardScaler ($Z$-score normalization) exclusively fitted on the training split to eliminate feature magnitude dominance while preventing data leakage.
+- Hyperparameter Optimization: Utilized GridSearchCV with 5-fold cross-validation (cv=5) to search over regularization penalties (penalty, C coefficients, solver).
+- Evaluation & ROC-AUC: Measured Precision, Recall, F1-Score, and ROC-AUC metrics, visualizing performance gain via comparison bar charts and ROC Curve analysis.
+
 ---
 
 ## 📊 Summary of EDA & Model Insights
 
-| Metric / Benchmark            | Key Finding / Observation                                                                   |
-| ----------------------------- | ------------------------------------------------------------------------------------------- |
-| **Top Performing Student**    | Rachel (_AI/ML_) — Overall Score: **96.33**                                                 |
-| **Lowest Performing Student** | Peter (_Cyber Security_) — Overall Score: **39.33**                                         |
-| **Highest Performing Course** | **Data Science** (Avg: **75.14**) & **AI/ML**                                               |
-| **Lowest Performing Course**  | **Cyber Security** (Avg: **61.80**)                                                         |
-| **Key Risk Driver**           | Attendance below **75%** strongly correlates with lower final exam scores and failure risk. |
-| **Model Benchmark (Day 5)**   | Evaluated decision boundaries of linear models vs. tree-based non-linear estimators.        |
+| Metric / Benchmark            | Key Finding / Observation                                                                                                                                                                    |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Top Performing Student**    | Rachel (_AI/ML_) — Overall Score: **96.33**                                                                                                                                                  |
+| **Lowest Performing Student** | Peter (_Cyber Security_) — Overall Score: **39.33**                                                                                                                                          |
+| **Highest Performing Course** | **Data Science** (Avg: **75.14**) & **AI/ML**                                                                                                                                                |
+| **Lowest Performing Course**  | **Cyber Security** (Avg: **61.80**)                                                                                                                                                          |
+| **Key Risk Driver**           | Attendance below **75%** strongly correlates with lower final exam scores and failure risk.                                                                                                  |
+| **Model Benchmark (Day 5)**   | Evaluated decision boundaries of linear models vs. tree-based non-linear estimators.                                                                                                         |
+| **Day 6 Optimization**        | GridSearchCV identified optimal LogisticRegression hyperparameter set: {'C': 1, 'penalty': 'l1', 'solver': 'liblinear'} with 100% Accuracy, F1-Score, and ROC-AUC on test evaluation splits. |
 
 ---
 
@@ -97,7 +114,7 @@ HisabDo-AI-Internship/
 1. **Clone the repository:**
 
 ```bash
-git clone [https://github.com/aysenuryesilova/HisabDo-AI-Internship.git](https://github.com/aysenuryesilova/HisabDo-AI-Internship.git)
+git clone [https://github.com/aysenuryesilova/HisabDo-AI-Internship.git]
 cd HisabDo-AI-Internship
 
 ```
@@ -122,7 +139,7 @@ jupyter notebook
 
 - **Language:** Python 3.x
 - **Data Processing & Analytics:** Pandas, NumPy
-- **Machine Learning:** Scikit-Learn (`LogisticRegression`, `DecisionTreeClassifier`, `train_test_split`, `metrics`)
+- **Machine Learning:** Scikit-Learn (`LogisticRegression`, `DecisionTreeClassifier`,`GridSearchCV`, `StandardScaler`, `train_test_split`, `metrics`)
 - **Data Visualization:** Matplotlib, Seaborn
 - **Environment & Version Control:** VS Code, Jupyter Notebook, Windows Terminal, Git, GitHub
 
@@ -134,7 +151,7 @@ jupyter notebook
 
 _AI/ML Intern at HisabDo_
 
-- **GitHub:** [@Aysenuryesilova](https://github.com/Aysenuryesilova)
+- **GitHub:** [@Aysenuryesilova]
 
 ```
 
