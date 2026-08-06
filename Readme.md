@@ -151,8 +151,7 @@ jupyter notebook
 
 _AI/ML Intern at HisabDo_
 
-- **GitHub:** [@Aysenuryesilova]
-
 ```
+**GitHub:** [@Aysenuryesilova]
 
 ```
