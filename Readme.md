@@ -151,7 +151,10 @@ jupyter notebook
 
 _AI/ML Intern at HisabDo_
 
-```
-**GitHub:** [@Aysenuryesilova]
+- Other Accounts:
 
+```
+https://medium.com/@aysenuryesilovaofficial
+https://www.linkedin.com/in/aysenuryesilova
+https://huggingface.co/Aysenur44
 ```
