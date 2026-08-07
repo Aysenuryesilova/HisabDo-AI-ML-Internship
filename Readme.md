@@ -1,15 +1,16 @@
-````markdown
-# 🚀 HisabDo AI/ML Internship - 5-Day Machine Learning Foundations & Repository Setup
+````
+
+#  HisabDo AI/ML Internship - 5-Day Machine Learning Foundations & Repository Setup
 
 Welcome to the official documentation repository for the **HisabDo Data Analysis & AI/ML Internship**. This project serves as an end-to-end hands-on log capturing the complete machine learning lifecycle—ranging from foundational Python/NumPy array manipulation and Pandas data preprocessing, to Exploratory Data Analysis (EDA), binary classification pipelines, and comparative model evaluation.
 
 ---
 
-## 🛠️ Project Architecture & Repository Structure
+## Project Architecture & Repository Structure
 
 The repository follows a clean, modular structure organized by daily learning milestones. Each directory operates independently with dedicated scripts, Jupyter Notebooks, datasets, and generated visualizations.
 
-```text
+```
 HisabDo-AI-Internship/
 │
 ├── README.md                          # Main internship documentation & technical overview
@@ -48,7 +49,6 @@ HisabDo-AI-Internship/
     ├── chart_roc_curve.png            # ROC-AUC evaluation curves
     └── README.md
 
-```
 ````
 
 ---
